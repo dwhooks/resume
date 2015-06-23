@@ -1,0 +1,121 @@
+body {
+  background-color: #99999;
+}
+
+header {
+  margin: 0 auto;
+  width: 50%;
+}
+
+.school {
+  margin-bottom: 20px;
+}
+
+.school p {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.experience {
+  margin-bottom: 20px;
+}
+
+.experience p {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.certs {
+  margin-bottom: 20px;
+}
+
+.certs p {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.activities {
+  margin-bottom: 20px;
+}
+
+.activities p {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.honors {
+  margin-bottom: 20px;
+}
+
+.honors p {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.workExp {
+  margin-bottom: 20px;
+}
+
+.workExp p {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+ul>li {
+  display: list-item;
+  margin: 0 30px 0 0;
+  list-style-type: disc;
+  font-size: 1.0em;
+  right-margin: 10%;
+}
+
+hr.style-one {
+  border: 0;
+  height: 1px;
+  background: #333;
+  background-image: linear-gradient(to right, #ccc, #333, #ccc);
+}
+
+section {
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 35px;
+}
+
+/*________________________________________________MOBILE___________*/
+
+@media only screen and (max-width: 480px) {
+  body {
+    background-color: orange;
+  }
+  ul {
+    background-color: green;
+    text-align: center;
+  }
+  ul >li {
+    display: block;
+    list-style-type: circle;
+    font-size: 4.5em;
+    float: none;
+    margin-top: 50px;
+  }
+  
+.name {
+  display: block;
+}
+  
+header {
+  display: none;
+}
+  
+main {
+  display: none;
+}
+  
+section {
+  display: none;
+}
+
+footer {
+  display: none;
+}
